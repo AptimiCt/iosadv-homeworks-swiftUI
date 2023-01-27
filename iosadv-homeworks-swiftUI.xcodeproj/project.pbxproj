@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611F8BD62984667C004704CA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F8BD52984667C004704CA /* InfoView.swift */; };
+		611F8BD829846733004704CA /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F8BD729846733004704CA /* InfoDetails.swift */; };
+		611F8BDA29846A2D004704CA /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F8BD929846A2D004704CA /* InfoRow.swift */; };
 		61C612362983457200206131 /* iosadv_homeworks_swiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C612352983457200206131 /* iosadv_homeworks_swiftUIApp.swift */; };
 		61C612382983457200206131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C612372983457200206131 /* ContentView.swift */; };
 		61C6123A2983457400206131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C612392983457400206131 /* Assets.xcassets */; };
@@ -15,9 +18,15 @@
 		61C612482983509700206131 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C612462983509700206131 /* Data.swift */; };
 		61C612492983509700206131 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C612472983509700206131 /* Post.swift */; };
 		61C6124C298350D700206131 /* TextFielder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C6124B298350D700206131 /* TextFielder.swift */; };
+		61C6124E298449B900206131 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C6124D298449B900206131 /* SettingsView.swift */; };
+		61C6125029844D6200206131 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C6124F29844D6200206131 /* ProfileView.swift */; };
+		61C6125229844ECA00206131 /* StarsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C6125129844ECA00206131 /* StarsScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		611F8BD52984667C004704CA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		611F8BD729846733004704CA /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
+		611F8BD929846A2D004704CA /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		61C612322983457200206131 /* iosadv-homeworks-swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosadv-homeworks-swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C612352983457200206131 /* iosadv_homeworks_swiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosadv_homeworks_swiftUIApp.swift; sourceTree = "<group>"; };
 		61C612372983457200206131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +36,9 @@
 		61C612462983509700206131 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		61C612472983509700206131 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		61C6124B298350D700206131 /* TextFielder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFielder.swift; sourceTree = "<group>"; };
+		61C6124D298449B900206131 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		61C6124F29844D6200206131 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		61C6125129844ECA00206131 /* StarsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +74,15 @@
 				61C6124A298350AD00206131 /* Helper */,
 				61C612352983457200206131 /* iosadv_homeworks_swiftUIApp.swift */,
 				61C612372983457200206131 /* ContentView.swift */,
+				611F8BD52984667C004704CA /* InfoView.swift */,
+				611F8BD929846A2D004704CA /* InfoRow.swift */,
+				611F8BD729846733004704CA /* InfoDetails.swift */,
 				61C612392983457400206131 /* Assets.xcassets */,
 				61C61243298349BC00206131 /* LoginView.swift */,
 				61C612452983509700206131 /* DataModel */,
+				61C6124D298449B900206131 /* SettingsView.swift */,
+				61C6124F29844D6200206131 /* ProfileView.swift */,
+				61C6125129844ECA00206131 /* StarsScene.swift */,
 				61C6123B2983457400206131 /* Preview Content */,
 			);
 			path = "iosadv-homeworks-swiftUI";
@@ -165,11 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C6125029844D6200206131 /* ProfileView.swift in Sources */,
+				61C6124E298449B900206131 /* SettingsView.swift in Sources */,
+				61C6125229844ECA00206131 /* StarsScene.swift in Sources */,
 				61C6124C298350D700206131 /* TextFielder.swift in Sources */,
 				61C61244298349BC00206131 /* LoginView.swift in Sources */,
 				61C612382983457200206131 /* ContentView.swift in Sources */,
 				61C612362983457200206131 /* iosadv_homeworks_swiftUIApp.swift in Sources */,
 				61C612482983509700206131 /* Data.swift in Sources */,
+				611F8BDA29846A2D004704CA /* InfoRow.swift in Sources */,
+				611F8BD829846733004704CA /* InfoDetails.swift in Sources */,
+				611F8BD62984667C004704CA /* InfoView.swift in Sources */,
 				61C612492983509700206131 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -27,7 +27,7 @@ struct LoginView: View {
                                                   .red]),
                             center: .center,
                             angle: Angle(radians: 1))
-                .ignoresSafeArea()
+            .ignoresSafeArea(edges: .top)
             
             VStack() {
                 Image("teo")
