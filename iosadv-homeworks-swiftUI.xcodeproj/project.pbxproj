@@ -18,6 +18,11 @@
 		616D16AD2984861A00A94218 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16AC2984861A00A94218 /* PlayerView.swift */; };
 		616D16AF2984862700A94218 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16AE2984862700A94218 /* VideoView.swift */; };
 		616D16B12984863400A94218 /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16B02984863400A94218 /* RecorderView.swift */; };
+		616D16B62985DF3B00A94218 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16B52985DF3B00A94218 /* Hero.swift */; };
+		616D16B82985E03900A94218 /* HeroesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16B72985E03900A94218 /* HeroesData.swift */; };
+		616D16BA2985F3DE00A94218 /* HeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16B92985F3DE00A94218 /* HeroRow.swift */; };
+		616D16BD2986784F00A94218 /* HeroDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16BC2986784F00A94218 /* HeroDetail.swift */; };
+		616D16BF2986799000A94218 /* ImageModefier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D16BE2986799000A94218 /* ImageModefier.swift */; };
 		61C612362983457200206131 /* iosadv_homeworks_swiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C612352983457200206131 /* iosadv_homeworks_swiftUIApp.swift */; };
 		61C612382983457200206131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C612372983457200206131 /* ContentView.swift */; };
 		61C6123A2983457400206131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C612392983457400206131 /* Assets.xcassets */; };
@@ -43,6 +48,11 @@
 		616D16AC2984861A00A94218 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		616D16AE2984862700A94218 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		616D16B02984863400A94218 /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		616D16B52985DF3B00A94218 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		616D16B72985E03900A94218 /* HeroesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesData.swift; sourceTree = "<group>"; };
+		616D16B92985F3DE00A94218 /* HeroRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRow.swift; sourceTree = "<group>"; };
+		616D16BC2986784F00A94218 /* HeroDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetail.swift; sourceTree = "<group>"; };
+		616D16BE2986799000A94218 /* ImageModefier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModefier.swift; sourceTree = "<group>"; };
 		61C612322983457200206131 /* iosadv-homeworks-swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosadv-homeworks-swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C612352983457200206131 /* iosadv_homeworks_swiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosadv_homeworks_swiftUIApp.swift; sourceTree = "<group>"; };
 		61C612372983457200206131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +83,7 @@
 			children = (
 				616D16A12984807600A94218 /* TitleModefier.swift */,
 				616D16A32984812F00A94218 /* MainTextModefier.swift */,
+				616D16BE2986799000A94218 /* ImageModefier.swift */,
 			);
 			path = Task2;
 			sourceTree = "<group>";
@@ -88,6 +99,32 @@
 				616D16B02984863400A94218 /* RecorderView.swift */,
 			);
 			path = Task3;
+			sourceTree = "<group>";
+		};
+		616D16B32985DEBC00A94218 /* Task4 */ = {
+			isa = PBXGroup;
+			children = (
+				616D16B42985DECE00A94218 /* DataModelHeroes */,
+				616D16B92985F3DE00A94218 /* HeroRow.swift */,
+			);
+			path = Task4;
+			sourceTree = "<group>";
+		};
+		616D16B42985DECE00A94218 /* DataModelHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				616D16B52985DF3B00A94218 /* Hero.swift */,
+				616D16B72985E03900A94218 /* HeroesData.swift */,
+			);
+			path = DataModelHeroes;
+			sourceTree = "<group>";
+		};
+		616D16BB2986782000A94218 /* Task5 */ = {
+			isa = PBXGroup;
+			children = (
+				616D16BC2986784F00A94218 /* HeroDetail.swift */,
+			);
+			path = Task5;
 			sourceTree = "<group>";
 		};
 		61C612292983457200206131 = {
@@ -109,6 +146,8 @@
 		61C612342983457200206131 /* iosadv-homeworks-swiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				616D16BB2986782000A94218 /* Task5 */,
+				616D16B32985DEBC00A94218 /* Task4 */,
 				616D16A52984826800A94218 /* Task3 */,
 				616D16A02984803600A94218 /* Task2 */,
 				61C6124A298350AD00206131 /* Helper */,
@@ -232,14 +271,19 @@
 				616D16B12984863400A94218 /* RecorderView.swift in Sources */,
 				616D16A22984807600A94218 /* TitleModefier.swift in Sources */,
 				61C61244298349BC00206131 /* LoginView.swift in Sources */,
+				616D16BA2985F3DE00A94218 /* HeroRow.swift in Sources */,
 				61C612382983457200206131 /* ContentView.swift in Sources */,
 				616D16AD2984861A00A94218 /* PlayerView.swift in Sources */,
+				616D16B62985DF3B00A94218 /* Hero.swift in Sources */,
 				61C612362983457200206131 /* iosadv_homeworks_swiftUIApp.swift in Sources */,
+				616D16B82985E03900A94218 /* HeroesData.swift in Sources */,
 				616D16AF2984862700A94218 /* VideoView.swift in Sources */,
 				61C612482983509700206131 /* Data.swift in Sources */,
+				616D16BF2986799000A94218 /* ImageModefier.swift in Sources */,
 				616D16AB298482D900A94218 /* FeedView.swift in Sources */,
 				611F8BDA29846A2D004704CA /* InfoRow.swift in Sources */,
 				611F8BD829846733004704CA /* InfoDetails.swift in Sources */,
+				616D16BD2986784F00A94218 /* HeroDetail.swift in Sources */,
 				611F8BD62984667C004704CA /* InfoView.swift in Sources */,
 				616D16A42984812F00A94218 /* MainTextModefier.swift in Sources */,
 				61C612492983509700206131 /* Post.swift in Sources */,
