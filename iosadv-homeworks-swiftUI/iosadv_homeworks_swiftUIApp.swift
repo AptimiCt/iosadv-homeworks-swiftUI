@@ -13,7 +13,7 @@ import SwiftUI
 struct iosadv_homeworks_swiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VKTabBarView()
         }
     }
 }

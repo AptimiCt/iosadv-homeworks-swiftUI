@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tor.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
